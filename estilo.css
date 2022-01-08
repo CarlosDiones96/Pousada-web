@@ -1,0 +1,167 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-links{
+    width: 1024px;
+    text-align: center;
+}
+
+.realce-marca{
+    color: lightskyblue;
+    font-weight: bold
+}
+
+.menu{
+    position: fixed;
+    background-color: white;
+    height: 50px;
+    margin-top: -22px;
+    padding-top: 10px;
+}
+
+.links-agrupados{
+    padding-left: 50px;
+}
+
+.link-topo{
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.link-topo-principal{
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 200px;
+}
+
+.img-principal{
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    height: 600px;
+}
+
+.titulo-transparente{
+    position: relative;
+    top: -400px;
+    left: 35%;
+    opacity: 0.9;
+    background-color: rgba(6, 146, 189, 0.568);
+    border: 3px solid white;
+    width: 500px;
+    height:200px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.titulo-transparente h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+}
+.titulo-transparente p{
+    font-weight: bolder;
+    font-size: 26px;
+    color: white;
+}
+
+.subtitulo-importante{
+    opacity: 0.9;
+    width: auto;
+    height:150px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.img-quarto img{
+    height: 200x;
+    width: 230px;
+    padding: 20px 8px;
+    position: relative;
+    margin: 0 5px;
+}
+
+.img-quarto a{
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid darkcyan;
+    padding: 0 10px;
+    text-align: center;
+    color: black;
+    width: 81%;
+}
+
+div .img-quarto{
+    height: 254px;
+    width: 254px;
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+.container-quartos{
+    width: auto;
+    text-align: center;
+}
+
+.descricoes-pousada{
+    width: 1050px;
+    margin: auto;
+}
+
+.descricao-pousada{
+    height: 200px;
+    width: 520px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+.descricao-pousada img{
+    width: 165px;
+    height: 200px;
+    display: inline;
+    object-fit: cover;
+    position: relative;
+    top: -61px;
+    right: -4px;
+    
+}
+
+.descricao-pousada h3{
+    display: inline-block;
+    width: 348px;
+}
+
+.descricao-pousada p{
+    display: inline-block;
+    height: 75px;
+    width: 348px;
+    text-align: justify;
+    position: relative;
+    top: -123px;
+}
+
+.footer-container{
+    background-color: lightgreen;
+    display: flex;
+}
+
+.footer-contato{
+  padding: 10px;
+  
+  
+  border: 1px solid red;
+}
+
+.footer-copyright{
+    padding: 10px;
+    display: block;
+
+    border: 1px solid red;
+}
