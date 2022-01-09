@@ -4,6 +4,8 @@ body{
     margin: 0;
 }
 
+/* This is just a comment*/
+
 .menu-links{
     width: 1024px;
     text-align: center;
@@ -18,7 +20,7 @@ body{
     position: fixed;
     background-color: white;
     height: 50px;
-    margin-top: -22px
+    margin-top: -22px;
     padding-top: 10px;
 }
 
