@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&display=swap');
+
+/*
+font-family: 'Manrope', sans-serif;
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-weight:200;
+}
+.header-links{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.destaque{
+    color: lightskyblue;
+    font-weight: 500;
+}
+
+header a, header div a{
+    text-decoration: none;
+    font-weight:500;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 10px 200px;
+}
+
+.img-apresentacao{
+    background: url(assets/img-fundo.jpg);
+    height: 550px;
+}
+
+.boas-vindas{
+    color: white;
+    border:1px solid white;
+    width:500px;
+    height:200px;
+    text-align: center;
+
+    flex-direction: column;
+    margin: 300px auto;
+}
