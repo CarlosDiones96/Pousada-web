@@ -4,6 +4,17 @@
 font-family: 'Manrope', sans-serif;
 */
 
+
+/*---------Definições genéricas ------------------*/
+
+.titulo2{
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*------------------------------------------------*/
+
 body{
     margin: 0;
     padding: 0;
@@ -22,13 +33,14 @@ body{
     font-weight: 500;
 }
 
-header a, header div a{
+.header a, .header div a{
     text-decoration: none;
     font-weight:500;
+    color: black;
 }
 
 
-header{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,16 +50,90 @@ header{
 
 .img-apresentacao{
     background: url(assets/img-fundo.jpg);
-    height: 550px;
+    height: 600px;
 }
 
 .boas-vindas{
     color: white;
     border:1px solid white;
-    width:500px;
+    width:520px;
     height:200px;
     text-align: center;
+    background: lightseagreen;
 
+    display: flex;
     flex-direction: column;
-    margin: 300px auto;
+    justify-content: space-between;
+    
+    position: relative;
+    top: 30%;
+    left: 30%;
+
+    border-radius: 3px;
+    opacity: 0.8;
+
 }
+
+.boas-vindas h1{
+    font-size: 48px;
+
+}
+
+.boas-vindas p{
+    font-size: 28px;
+}
+
+.box-centralizado{
+    text-align: center;
+    width: 650px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.main-container{
+    padding: 0;
+    
+}
+
+.container-imgs{
+    padding: 30px;
+    width: 1024px;
+    margin: 0 auto;
+    
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.img-quarto{
+    width: 300px;
+    max-width: 1024px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin: 10px auto;
+    
+}
+
+.img-quarto img{
+    width: 250px;
+    height:210px;
+    background-clip: cover;
+
+}
+
+.img-quarto a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: black;
+    font-weight: 400;
+}
+
+
