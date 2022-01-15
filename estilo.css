@@ -11,6 +11,7 @@ font-family: 'Manrope', sans-serif;
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
+    text-shadow: gray 2px 2px 3px;
 }
 
 /*------------------------------------------------*/
@@ -21,6 +22,9 @@ body{
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     font-weight:200;
+   
+    background: rgb(255,255,255);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 9%, rgba(208,242,234,1) 54%, rgba(255,255,255,1) 95%);
 }
 
 
@@ -31,14 +35,15 @@ body{
 }
 
 .destaque{
-    color: lightskyblue;
-    font-weight: 500;
+    color: #9de7d5;
+    font-weight: 800;
+    text-shadow:gray 3px 3px 2px;
 }
 
 .header a, .header div a{
     text-decoration: none;
     font-weight:500;
-    color: black;
+    color: #3a6c60;
 }
 
 
@@ -79,6 +84,7 @@ body{
 
 .boas-vindas h1{
     font-size: 48px;
+    text-shadow: gray 2px 2px 3px;
 
 }
 
@@ -128,15 +134,109 @@ body{
     width: 250px;
     height:210px;
     background-clip: cover;
+    border-radius: 20px;
 
 }
 
 .img-quarto a{
     text-decoration: none;
     text-transform: uppercase;
-    padding-top: 5px;
-    color: black;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #3a6c60;
     font-weight: 400;
+    border-bottom: 2px solid #3a6c60;
+    width: 250px;
+    text-align: center;
 }
 
+.descricao-pousada{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 100px auto 20px;
+    
+}
 
+.card-pousada{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+
+}
+
+.card-pousada p{
+    font-size: 14px;
+    margin: auto 20px;
+}
+
+.card-pousada h3{
+    margin: 5px auto 10px 20px;
+    font-size: 26px;
+    font-weight: 400;
+    text-shadow: gray 1px 1px 1px;
+}
+
+.card-pousada img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.card-pousada div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    background: linear-gradient(to right, #abd4e0, white)
+}
+
+.paragrafo-curto{
+    visibility:hidden;
+}
+
+footer{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    height: 300px;
+
+    background: rgb(70,200,162);
+    background: linear-gradient(281deg, rgba(70,200,162,1) 0%, rgba(7,203,145,1) 26%, rgba(7,35,56,1) 87%);
+
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: auto;
+    border: 1px solid yellow;
+
+}
+
+.footer-info div{
+    width: 300px;
+    border: 1px solid white;
+}
+
+.footer-copyright{
+    display: block;
+    margin: auto;
+
+    border: 1px solid red;
+}
