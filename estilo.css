@@ -25,6 +25,21 @@ body{
    
 }
 
+header{
+    height: 70px;
+    position: fixed;
+
+    margin-left:0;
+
+    width: 100%;
+    z-index:100;
+    
+    margin: -70px;
+
+    background: rgb(39,39,39);
+    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(121,32,210,1) 35%, rgba(121,68,141,1) 64%, rgba(178,100,207,1) 100%);
+
+}
 
 .header-links{
     width: 500px;
@@ -41,7 +56,7 @@ body{
 .header a, .header div a{
     text-decoration: none;
     font-weight:500;
-    color: #3a6c60;
+    color: white;
 }
 
 
@@ -57,6 +72,7 @@ body{
 .img-apresentacao{
     background: url(assets/img-fundo.jpg);
     height: 600px;
+    margin-top: 70px;
 }
 
 .boas-vindas{
@@ -100,15 +116,15 @@ body{
 
 
 .mapa{     /*Parte do mapa*/
-    height: 800px;
+    height: 700px;
 
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(33,128,100,1) 50%, rgba(255,255,255,1) 100%);
+background: linear-gradient(0deg, rgba(255,255,255,1) 2%, rgba(121,32,210,1) 46%, rgba(121,68,141,1) 56%, rgba(255,255,255,1) 100%);
     
 }
 
 iframe{
-    margin-top: 175px;
+    margin-top: 125px;
 }
 
 .main-container{
