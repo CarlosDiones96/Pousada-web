@@ -12,9 +12,25 @@ font-family: 'Manrope', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     text-shadow: gray 2px 2px 3px;
+      
 }
 
 /*------------------------------------------------*/
+
+.home-link{
+    margin-left: 15%;
+    padding: 15px 4px;
+}
+
+.home-link:hover{
+    background: rgb(150,25,139);
+    background: linear-gradient(90deg, rgba(150,25,139) 0%, rgba(106,209,209) 90%);
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:60px;
+    border-left: 5px solid white;
+    box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -22,66 +38,91 @@ body{
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     font-weight:200;
+
+    background: #e2f1f1;
    
 }
 
 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    margin: -70px auto auto;
+    background: black;
     height: 70px;
     position: fixed;
-
-    margin-left:0;
-
     width: 100%;
     z-index:100;
-    
-    margin: -70px;
 
-    background: rgb(39,39,39);
-    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(121,32,210,1) 35%, rgba(121,68,141,1) 64%, rgba(178,100,207,1) 100%);
+    background: rgb(46,46,46);
+    background: linear-gradient(90deg, rgba(46,46,46,1) 2%, rgba(73,72,72,1) 100%);
 
 }
 
 .header-links{
     width: 500px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.header-links a{
+    padding: 15px 20px;
+}
+
+.header-links a:hover{
+    text-align: center;
+    padding: 18px 20px;
+
+
+    background: rgb(70,200,162);
+    background: linear-gradient(281deg, rgba(70,200,162,1) 0%, rgba(7,203,145,1) 26%, rgb(22, 86, 134) 87%);
+
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    
 }
 
 .destaque{
-    color: #9de7d5;
+    color: white;
     font-weight: 800;
-    text-shadow:gray 3px 3px 2px;
+    text-shadow:lightblue 1px 1px 1px;
 }
 
-.header a, .header div a{
+.header div a{
     text-decoration: none;
     font-weight:500;
     color: white;
 }
 
-
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 24px;
-    margin: 10px 200px;
-    
+iframe{
+    box-shadow: 0 0 1em gray;
 }
+
 
 .img-apresentacao{
     background: url(assets/img-fundo.jpg);
-    height: 600px;
+    height: 90vh;
     margin-top: 70px;
+    margin-left: auto;
+    margin-right:auto;
+
+    box-shadow: 0 0 1em gray;
 }
 
 .boas-vindas{
     color: white;
-    border:1px solid white;
-    width:520px;
-    height:200px;
+    border:1px solid gray;
+    width:40%;
+    height:40%;
     text-align: center;
-    background: lightseagreen;
+ 
+    background: rgb(46,46,46);
+    background: linear-gradient(90deg, rgba(46,46,46,0.7) 2%, rgba(112,207,209,0.5) 55%, rgba(73,72,72,0.7) 100%);
 
     display: flex;
     flex-direction: column;
@@ -91,8 +132,7 @@ header{
     top: 30%;
     left: 30%;
 
-    border-radius: 3px;
-    opacity: 0.8;
+    border-radius: 5px;
 
 }
 
@@ -112,20 +152,10 @@ header{
     margin: 10px auto;
     font-size: 20px;
     font-weight: 300;
+
 }
 
 
-.mapa{     /*Parte do mapa*/
-    height: 700px;
-
-    background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 2%, rgba(121,32,210,1) 46%, rgba(121,68,141,1) 56%, rgba(255,255,255,1) 100%);
-    
-}
-
-iframe{
-    margin-top: 125px;
-}
 
 .main-container{
     padding: 0;
@@ -140,7 +170,6 @@ iframe{
     display: flex;    
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .img-quarto{
@@ -153,7 +182,16 @@ iframe{
     align-items: center;
 
     margin: 10px auto;
+    padding-top: 20px;
+
+    box-shadow: 0 0 1em gray;
+    border-radius: 20px;
+    background: white;
     
+}
+
+#rota{
+    margin-bottom: 50px;
 }
 
 .img-quarto img{
@@ -171,7 +209,6 @@ iframe{
     padding-bottom: 10px;
     color: #3a6c60;
     font-weight: 400;
-    border-bottom: 2px solid #3a6c60;
     width: 250px;
     text-align: center;
 }
@@ -198,6 +235,7 @@ iframe{
 .card-pousada p{
     font-size: 14px;
     margin: auto 20px;
+    font-weight:400;
 }
 
 .card-pousada h3{
@@ -214,6 +252,8 @@ iframe{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 
+    box-shadow: 0 0 1em gray;
+
 }
 
 .card-pousada div{
@@ -224,7 +264,9 @@ iframe{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
-    background: linear-gradient(to right, #abd4e0, white)
+    background: linear-gradient(to right, #abd4e0, white);
+
+    box-shadow:0 0 1em gray;
 }
 
 .paragrafo-curto{
@@ -243,12 +285,12 @@ footer{
 
     height: 200px;
 
+    box-shadow: 0 0 1em gray;
+
     background: rgb(70,200,162);
     background: linear-gradient(281deg, rgba(70,200,162,1) 0%, rgba(7,203,145,1) 26%, rgba(7,35,56,1) 87%);
 
 }
-
-
 
 .footer-info{
     display: flex;
@@ -285,11 +327,15 @@ footer{
     font-weight: 600;
 }
 
+.footer-info div a:hover{
+    color: hsl(286, 72%, 72%)
+}
+
 .footer-copyright{
     display: block;
     margin: auto;
 
-    font-weight: 800;
+    font-weight: 400;
     font-size: 20px;
 }
 
