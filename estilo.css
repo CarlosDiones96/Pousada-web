@@ -283,7 +283,7 @@ footer{
     justify-content: space-between;
     margin-top: 100px;
 
-    height: 200px;
+    height: 15%;
 
     box-shadow: 0 0 1em gray;
 
@@ -341,4 +341,79 @@ footer{
 
 
 /*-----------------Media queries------------------------*/
+
+@media screen and (max-width: 480px){
+   body{
+       background: red; /*teste*/
+   }
+}
+
+@media screen and  (min-width: 481px) and (max-width: 768px){
+    
+    header{
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .home-link{
+        height: 94%;
+        text-align: center;
+        padding: 0;
+        margin-left: auto;
+    }
+
+
+    .img-apresentacao{
+        width: 100%;
+    }
+
+    .boas-vindas{
+        width: 60%;
+        height: 50%;
+        max-height: 200px;
+        min-height: 180px;
+
+        max-width:350px;
+        min-width: 200px;
+        left: 20%;
+    }
+
+    .boas-vindas h1{
+        font-size: 30px;
+    }
+
+    .boas-vindas p{
+        font-size: 22px;
+    }
+
+    .container-imgs{
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .img-quarto{
+        margin: 5px auto;
+    }
+
+    .box-centralizado{
+        width: 80%;
+    }
+
+    .box-centralizado p{
+        display: flex;
+        justify-content:center;
+    }
+
+    footer{
+        font-size: 90%;
+    } 
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        background: yellow; /*teste*/
+    }
+}
 
