@@ -1,10 +1,22 @@
 .container-imgs img{
-    height:300px;
+    height:290px;
     width: 320px;
     border-radius: 10px;
     box-sizing: border-box;
     margin: 10px;
     border: 20px solid white;
     box-shadow: 1px 1px 5px gray;
+    
+}
+
+.list-description{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.list-description li{
+    width: 33%;
+    height: 50px;
+    text-align: left;
     
 }
