@@ -20,3 +20,32 @@
     text-align: left;
     
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    
+    .container-imgs{
+        display: flex;
+        flex-flow: row wrap;
+    }
+   
+    .container-imgs img{
+        height: 250px;
+        width: 250px;
+    }
+} /*1105px*/
+
+@media screen and (min-width: 769px) and (max-width: 1105px){
+    body{
+        background: magenta;
+    } 
+
+    .container-imgs{
+        width: 85%;
+        flex-flow:row wrap;
+    }
+
+    .container-imgs img{
+        flex-grow: 2;
+        height: auto;
+    }
+}
